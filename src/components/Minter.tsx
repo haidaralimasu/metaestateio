@@ -216,7 +216,7 @@ const Minter = () => {
             </div>
             <div className="vl"></div>
             <div className="minter-status-card">
-              <h6>Presale Price</h6>
+              <h6>Price</h6>
               <h2>{cost} ETH</h2>
             </div>
             <div className="vl"></div>
