@@ -98,7 +98,7 @@ const Minter = () => {
         {/* <img src={banner} className="banner" alt="banner" /> */}
 
         {/* <h1 className="minter-h1">Mint Your Meta Estate NFT</h1> */}
-        <h1 style={{color:"white"}} className="minter-h1">Presale 28th of February | Public Sale 1st of March</h1>
+        <h1 style={{color:"white"}} className="minter-h1">MetaEstate Mint Is Live Now</h1>
 
         {totalSupply < maxSupply ? (
           <div className="minting-section">
@@ -213,8 +213,8 @@ const Minter = () => {
           <div className="minter-status">
             <div className="minter-status-card">
               <h6>Status</h6>
-              <h2>Live Soon</h2>
-              {/* <h2>Live</h2> */}
+
+              <h2>Live</h2>
             </div>
             <div className="vl"></div>
             <div className="minter-status-card">
