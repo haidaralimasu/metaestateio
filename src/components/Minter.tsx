@@ -113,12 +113,7 @@ const Minter = () => {
                   {nftbalance >= 2 ? (
                     <>
                       {!hasClaimed ? (
-                        <button
-                          onClick={() => handleClaimFree()}
-                          className="btn mint  btn-gradient-blue"
-                        >
-                          {minting ? "Please Wait" : `Claim Free NFT`}
-                        </button>
+                        null
                       ) : null}
                     </>
                   ) : null}
