@@ -9,7 +9,7 @@ const config = {
   readOnlyChainId: ChainId.Mainnet,
   readOnlyUrls: {
     [ChainId.Mainnet]:
-      "https://mainnet.infura.io/v3/70ced43c56d248f18566ebe01e2d9fbe",
+      "https://mainnet.infura.io/v3/ed0dd7303c2c4cbb995e6a5536f207f9",
   },
   supportedChains: [ChainId.Mainnet],
 };
