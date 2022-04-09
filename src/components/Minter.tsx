@@ -34,7 +34,7 @@ const Minter = () => {
   const hasClaimed = useHasClaimed(account);
 
   const increase = () => {
-    if (amount < 3) {
+    if (amount < 25) {
       setAmount(amount + 1);
     }
   };
@@ -126,24 +126,24 @@ const Minter = () => {
                         <>
                           {nftbalance < nftLimit + 1 ? (
                             <div>
-                              {/*<button
+                              <button
                                 className="btn btn-round amount  btn-gradient-blue"
                                 onClick={() => decrease()}
                               >
                                 -
-                              </button>*/}
+                              </button>
                               <button
                                 onClick={() => handleMint()}
                                 className="btn mint  btn-gradient-blue"
                               >
                                 {minting ? "Please Wait" : `Mint ${amount}`}
                               </button>
-                              {/*<button
+                              <button
                                 className="btn btn-round amount  btn-gradient-blue"
                                 onClick={() => increase()}
                               >
                                 +
-                              </button>*/}
+                              </button>
                             </div>
                           ) : (
                             <button className="btn mint  btn-gradient-blue">
