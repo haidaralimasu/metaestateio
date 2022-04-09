@@ -126,24 +126,24 @@ const Minter = () => {
                         <>
                           {nftbalance < nftLimit + 1 ? (
                             <div>
-                              <button
+                              {/*<button
                                 className="btn btn-round amount  btn-gradient-blue"
                                 onClick={() => decrease()}
                               >
                                 -
-                              </button>
+                              </button>*/}
                               <button
                                 onClick={() => handleMint()}
                                 className="btn mint  btn-gradient-blue"
                               >
                                 {minting ? "Please Wait" : `Mint ${amount}`}
                               </button>
-                              <button
+                              {/*<button
                                 className="btn btn-round amount  btn-gradient-blue"
                                 onClick={() => increase()}
                               >
                                 +
-                              </button>
+                              </button>*/}
                             </div>
                           ) : (
                             <button className="btn mint  btn-gradient-blue">
@@ -163,24 +163,24 @@ const Minter = () => {
                 ) : (
                   <>
                     <div>
-                      <button
+                      {/* <button
                         className="btn btn-round amount  btn-gradient-blue"
                         onClick={() => decrease()}
                       >
                         -
-                      </button>
+                      </button>*/}
                       <button
                         onClick={() => handleMint()}
                         className="btn mint  btn-gradient-blue"
                       >
                         {minting ? "Please Wait" : `Mint ${amount}`}
                       </button>
-                      <button
+                      {/*<button
                         className="btn btn-round amount  btn-gradient-blue"
                         onClick={() => increase()}
                       >
                         +
-                      </button>
+                      </button>*/}
                     </div>
                   </>
                 )}
